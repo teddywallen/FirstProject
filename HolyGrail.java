@@ -1,5 +1,5 @@
 /**
- * Class HolyGrail is a simple conversation bot
+ * Class HolyGrail is a simple conversation bot that records and returns user input
  * @version 09/15/2021
  * @author 23wallen
  */
@@ -21,7 +21,7 @@ public class HolyGrail {
         System.out.print("Question 2: What is your quest? ");
         String quest = input.nextLine();
         //ask the user their favorite color
-        System.out.print("Question 3: What is your favorite color?");
+        System.out.print("Question 3: What is your favorite color? ");
         String color = input.nextLine();
         //print summary info
         System.out.println("King Arthur says, \"You have to know these things when you're a king, you know.\"");
