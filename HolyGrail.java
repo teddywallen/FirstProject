@@ -1,9 +1,9 @@
+import java.util.Scanner;
 /**
  * Class HolyGrail is a simple conversation bot that records and returns user input
  * @version 09/15/2021
  * @author 23wallen
  */
-import java.util.Scanner;
 public class HolyGrail {
     /**
      * Main entry point for class HolyGrail
