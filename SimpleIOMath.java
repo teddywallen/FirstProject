@@ -60,7 +60,7 @@ public class SimpleIOMath {
         System.out.println("At your next birthday, you will turn " + (age+1) + ".");
         System.out.println("The first prime factor of " + age + " is: " + smallestPrime(age));
         System.out.println("Your favorite number is: " + favNumber);
-        System.out.println("Your favorite number squared is: " + Math.pow(favNumber,2));
+        System.out.println("Your favorite number squared is: " + (int) Math.pow(favNumber,2));
     }
     /**
      * Main entry point for class SimpleIOMath
