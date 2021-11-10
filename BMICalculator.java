@@ -17,7 +17,6 @@ Using each of those while continuing the program should generate 100% code cover
 public class BMICalculator {
     /**
      * Method computeBMI converts inches and lbs to metric units and performs the BMI calculation
-     * Convert English to metric units, performs the BMI calculation
      * @return returns double BMI value
      */
     public static double computeBMI(int inches, int pounds) {
@@ -48,7 +47,7 @@ public class BMICalculator {
 
     /**
      * Main entry point for class BMICalculator
-     * Uses a Scanner to prompt the user for info, process the feet/inches conversion, calls the computeBMI method and prints the * correct information.
+     * Uses a Scanner to prompt the user for info, process the feet/inches conversion, calls the computeBMI method and prints the correct information
      * @param args command line arguments, if needed
      */
     public static void main(String[] args) {
