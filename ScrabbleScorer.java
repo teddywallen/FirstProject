@@ -22,7 +22,7 @@ public class ScrabbleScorer {
         buildDictionary();
     }
 
-    /**f
+    /**
      * buildDictionary creates a sorted scrabble word dictionary ArrayList from text file
      * Opens data file, reads words into dictionary one line at time, sorts dictionary
      */
@@ -46,7 +46,7 @@ public class ScrabbleScorer {
     }
 
     /**
-     * Javadoc isValidWord takes a word and uses binarySearch to determine if it is in the scrabble dictionary
+     * isValidWord takes a word and uses binarySearch to determine if it is in the scrabble dictionary
      * @param word String value
      * @return true if word is in dictionary, false otherwise
      */
@@ -55,7 +55,7 @@ public class ScrabbleScorer {
     }
 
     /**
-     * Javadoc getWordScore takes a word, uses the parallel lists alpha and points to determine the Scrabble score of each letter, and returns the sum of the letter scores
+     * getWordScore takes a word, uses the parallel lists alpha and points to determine the Scrabble score of each letter, and returns the sum of the letter scores
      * @param word String value
      * @return int value for the Scrabble score of word
      */
@@ -74,7 +74,7 @@ public class ScrabbleScorer {
     }
 
     /**
-     * Javadoc main entry point for class ScrabbleScorer
+     * main entry point for class ScrabbleScorer
      * @param args command line arguments, if needed
      */
     public static void main(String[] args) {
