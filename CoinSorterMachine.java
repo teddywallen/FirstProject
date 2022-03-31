@@ -79,7 +79,12 @@ public class CoinSorterMachine {
             System.out.println("No valid coin values");
         else
             for(int i = 0; i < count.length; i++) {
-                System.out.println("\t" + count[i] + " " + coins2[i].getPluralName() + " " +  df.format(count[i] * coins2[i].getValue()));
+                if(count[i] == 1)
+                    System.out.println("\t" + count[i] + " " + coins2[i].getName() + " " +
+                            df.format(count[i] * coins2[i].getValue()));
+                else
+                    System.out.println("\t" + count[i] + " " + coins2[i].getPluralName() + " " +
+                        df.format(count[i] * coins2[i].getValue()));
             }
         System.out.println("TOTAL DEPOSIT: " + df.format(getTotalValue()));
     }
