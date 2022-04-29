@@ -83,7 +83,7 @@ public class TrailDatabase {
     /**
      * Prints database
      */
-    public void printDB(){
+    public void printDatabase(){
         for(Waypoint w : database)
             System.out.println(w);
         System.out.println();
@@ -112,7 +112,7 @@ public class TrailDatabase {
                 break;
             }
             db.sortDB();
-            db.printDB();
+            db.printDatabase();
         }
     }
 }
